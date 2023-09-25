@@ -302,7 +302,8 @@ body {
     grid-template-columns: auto auto auto;
     margin-left: 219px;
     margin-right: 219px;
-    width: 100%;
+   width: 1002px;
+   height: 680px;
 }
 
 .grid-item1 {

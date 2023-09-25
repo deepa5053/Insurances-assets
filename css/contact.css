@@ -1,0 +1,237 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.header {
+    width: 1002px;
+    height: 340px;
+    flex-shrink: 0;
+    background: #C7DDEA;
+    margin-left: 219px;
+    margin-right: 219px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-para {
+    width: 314px;
+    height: 101px;
+    color: #000;
+    font-family: Frank Ruhl Libre;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%;
+    /* 45px */
+    letter-spacing: -0.9px;
+    margin-left: 300px;
+    margin-top: 150px;
+}
+
+.header-img {
+    height: 300px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+/* header section ends*/
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    justify-content: space-around;
+    margin-left: 219px;
+    width: 1000px;
+    height: 50px;
+}
+
+.nav a {
+    color: #000;
+    text-align: center;
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: -0.24px;
+    text-decoration: none;
+}
+
+/* nav section ends*/
+.main {
+    width: 1002px;
+    height: 544px;
+    background: #A9A19E;
+    margin-left: 219px;
+    margin-right: 219px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-para {
+    width: 314px;
+    height: 140px;
+    color: #FFF;
+    font-family: Frank Ruhl Libre;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%;
+    /* 45px */
+    letter-spacing: -0.9px;
+    margin-right: 150px;
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+.form {
+    display: flex;
+    width: 167px;
+    height: 30px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    /* 14px */
+    letter-spacing: -0.28px;
+
+}
+
+.email {
+    width: 334px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: #FEFEFE;
+}
+
+.message {
+    width: 334px;
+    height: 166px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: #FEFEFE;
+    text-align: start;
+}
+
+.label-email {
+    display: flex;
+    width: 167px;
+    height: 30px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    /* 14px */
+    letter-spacing: -0.28px;
+}
+
+.label-message {
+    display: flex;
+    width: 167px;
+    height: 30px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    /* 14px */
+    letter-spacing: -0.28px;
+}
+
+.form-btn {
+    width: 131px;
+    height: 39px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #FFF;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.10);
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+/* end os main section*/
+.map {
+    width: 1002px;
+    height: 407px;
+    flex-shrink: 0;
+    margin-left: 219px;
+    margin-right: 219px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/map-contact.png);
+}
+
+.map-img {
+    width: 70px;
+    height: 112px;
+    flex-shrink: 0;
+    fill: #F17949;
+}
+
+.map-left {
+    width: 323px;
+    height: 206px;
+    flex-shrink: 0;
+    background: #FAB131;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.10);
+}
+
+.map-heading {
+    width: 278px;
+    height: 45px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Frank Ruhl Libre;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%;
+    /* 45px */
+    letter-spacing: -0.9px;
+}
+
+.map-para {
+    width: 277px;
+    height: 76px;
+    flex-shrink: 0;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 171.429% */
+}
+
+.footer {
+    width: 1002px;
+    height: 340px;
+    flex-shrink: 0;
+    background-color: #777574;
+    margin-left: 219px;
+    margin-right: 219px;
+
+}

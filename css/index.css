@@ -1,0 +1,434 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background: #EBEBEB;
+}
+
+.header {
+    width: 1000px;
+    height: 544px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.left {
+    width: 501px;
+    height: 544px;
+    background-color: lightblue;
+    margin-left: 219px;
+
+}
+
+.heading {
+    width: 314px;
+    height: 101px;
+    color: #000;
+    font-family: Frank Ruhl Libre;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: -0.9px;
+    margin-left: 100px;
+
+}
+
+.header-para {
+    width: 268px;
+    height: 103px;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin-left: 100px;
+
+}
+
+.white {
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.heading-button {
+    width: 131px;
+    height: 39px;
+    border-radius: 100px;
+    background: #FFF;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.10);
+}
+
+.heading-img {
+    width: 286px;
+    height: 245px;
+
+}
+
+.button-img {
+    display: flex;
+    margin-left: 100px;
+    flex-direction: row;
+
+}
+
+/*main part starts*/
+.right {
+    display: flex;
+    flex-direction: column;
+    margin-right: 219px;
+}
+
+.right-top {
+    width: 501px;
+    height: 272px;
+    background: #F17949;
+}
+
+.top-para-1 {
+    display: flex;
+    width: 250px;
+    height: 17px;
+    flex-direction: column;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    font-family: Fira Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.22px;
+    margin-top: 112px;
+
+    margin-left: 140px;
+    margin-right: 111px;
+}
+
+.top-para-2 {
+    display: flex;
+    width: 250px;
+    height: 41px;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Frank Ruhl Libre;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -0.64px;
+
+    margin-bottom: 100px;
+    ;
+    margin-left: 140px;
+    margin-right: 111px;
+}
+
+.right-bottom {
+    width: 501px;
+    height: 272px;
+    flex-shrink: 0;
+    background: #FFB939;
+}
+
+.bottom-para-1 {
+    display: flex;
+    width: 250px;
+    height: 17px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    font-family: Fira Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.22px;
+    margin-top: 115px;
+    margin-right: 111px;
+    margin-left: 140px;
+}
+
+.bottom-para-2 {
+    display: flex;
+    width: 250px;
+    height: 41px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Frank Ruhl Libre;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -0.64px;
+    margin-bottom: 99px;
+    margin-right: 111px;
+    margin-left: 142px;
+}
+
+/*nav starts*/
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    justify-content: space-around;
+    margin-left: 219px;
+    width: 1000px;
+    height: 50px;
+}
+
+.nav a {
+    color: #000;
+    text-align: center;
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: -0.24px;
+    text-decoration: none;
+}
+
+/* main section starts*/
+.main-1 {
+    display: flex;
+    flex-direction: row;
+    width: 1002px;
+    height: 612px;
+    background: #A9A19E;
+    margin-left: 219px;
+
+}
+
+.main-1 h1 {
+    width: 314px;
+    height: 140px;
+    color: #FFF;
+    font-family: Frank Ruhl Libre;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%;
+    /* 45px */
+    letter-spacing: -0.9px;
+
+    margin-left: 107px;
+
+}
+
+.main-button {
+    width: 131px;
+    height: 39px;
+    border-radius: 100px;
+    background: #FFF;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.10);
+    margin-bottom: 277px;
+    margin-left: 123px;
+
+}
+
+.main-left {
+    width: 280px;
+    height: 237px;
+    flex-shrink: 0;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 40px;
+    margin-bottom: 272px;
+    margin-left: 50px;
+    margin-right: 129px;
+}
+
+.main-2 {
+    width: 1002px;
+    height: 680px;
+    flex-shrink: 0;
+    background: #FAB131;
+    margin-left: 219px;
+}
+
+.main-heading {
+    display: flex;
+    margin-top: 0px;
+    width: 100%;
+    height: 201px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Frank Ruhl Libre;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+
+    letter-spacing: -0.9px;
+}
+
+.main2-para {
+    width: 442px;
+    height: 280px;
+    flex-shrink: 0;
+    color: rgba(0, 0, 0, 0.60);
+    text-align: center;
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin-left: 281px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 219px;
+    margin-right: 219px;
+    width: 100%;
+}
+
+.grid-item1 {
+    width: 334px;
+    height: 340px;
+    background: #C7DDEA;
+}
+
+.grid-heading {
+    display: flex;
+    width: 314px;
+    height: 101px;
+    flex-direction: column;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.80);
+    text-align: center;
+    font-family: Frank Ruhl Libre;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: -0.9px;
+    margin-left: 15px;
+
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.grid-item2 {
+    width: 334px;
+    height: 340px;
+    background: #FFF;
+}
+
+.num {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    flex-direction: column;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.40);
+    text-align: center;
+    font-family: Frank Ruhl Libre;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: -0.7px;
+}
+
+.grid-para {
+    display: flex;
+    width: 257px;
+    height: 113px;
+    flex-direction: column;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.70);
+    text-align: center;
+    font-family: Fira Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.grid-item3 {
+    width: 334px;
+    height: 340px;
+    background: #EBEBEB;
+}
+
+.grid-item4 {
+    width: 334px;
+    height: 340px;
+    background: #FFF;
+}
+
+.grid-item5 {
+    width: 334px;
+    height: 340px;
+    background: #F17949;
+}
+
+.grid-item6 {
+    width: 334px;
+    height: 340px;
+    background: #FFF;
+}
+
+.up {
+    width: 1002px;
+    height: 68px;
+    background: #A9A19E;
+    margin-left: 219px;
+    margin-right: 219px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.up-img {
+    width: 32px;
+    height: 32px;
+
+
+    color: #000000B2;
+}
+
+.up-para {
+
+    width: 255px;
+    height: 31px;
+    color: rgba(0, 0, 0, 0.70);
+    text-align: center;
+    font-family: Fira Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+.footer{
+    width: 1002px;
+height: 340px;
+flex-shrink: 0;
+background: #777574;
+margin-left: 219px;
+    margin-right: 219px;
+}
